@@ -1,0 +1,10 @@
+services:
+  docs-swarmauri-com:
+    build: .
+    container_name: docs-swarmauri-com
+    restart: unless-stopped
+    labels:
+      site.host: docs.swarmauri.com
+      site.kind: zdx-docs
+    ports:
+      - "127.0.0.1:0:80"

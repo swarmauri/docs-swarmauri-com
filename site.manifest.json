@@ -1,0 +1,18 @@
+{
+  "host": "docs.swarmauri.com",
+  "zone": "swarmauri.com",
+  "repository": "swarmauri/docs-swarmauri-com",
+  "siteKind": "zdx-docs",
+  "orchestrator": "npmctl",
+  "dnsProvider": "namecheap",
+  "deployment": "self-hosted-docker",
+  "dockerService": "docs-swarmauri-com",
+  "records": [
+    {
+      "type": "CNAME",
+      "host": "docs",
+      "value": "docs.swarmauri.com",
+      "ttl": 300
+    }
+  ]
+}
