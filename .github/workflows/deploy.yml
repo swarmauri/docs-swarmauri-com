@@ -109,7 +109,7 @@ jobs:
       - name: Plan Nginx Proxy Manager host with npmctl
         run: npmctl plan .tmp/npmctl/proxy.yaml --owner docs-swarmauri-com
       - name: Apply Nginx Proxy Manager host with npmctl
-        run: npmctl apply .tmp/npmctl/proxy.yaml --owner docs-swarmauri-com
+        run: npmctl apply .tmp/npmctl/proxy.yaml --owner docs-swarmauri-com --certificate-mode rotate
       - name: Verify public HTTPS and HTTP redirect
         shell: bash
         run: |
