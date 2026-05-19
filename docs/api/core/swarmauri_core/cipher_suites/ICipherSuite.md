@@ -1,3 +1,7 @@
 # ICipherSuite
 
-::: swarmauri_core.cipher_suites.ICipherSuite
+`ICipherSuite` is part of the Swarmauri SDK core package.
+
+The standalone docs site builds without importing the SDK workspace directly.
+Generated API pages should be refreshed from the SDK source package before
+publishing full symbol-level reference content here.
