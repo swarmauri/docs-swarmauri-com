@@ -61,7 +61,7 @@ While other frameworks offer similar capabilities, Swarmauri distinguishes itsel
     - **LLMs**: OpenAI, Anthropic, Cohere, Gemini, Mistral, and more
     - **Embedding Models**: OpenAI, Cohere, Voyage, and various open-source options
     - **Image Generation**: DALL-E, Stable Diffusion, Midjourney API
-    - **Speech-to-Text & Text-to-Speech**: Whisper, Play.ht, and various cloud providers
+    - **Speech-to-Text & Text-to-Speech**: Whisper, OpenAI TTS, and various cloud providers
 
 ### Tool Integration
 

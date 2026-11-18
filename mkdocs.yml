@@ -593,7 +593,6 @@ nav:
       - OpenAIReasonModel: api/standard/swarmauri_standard/llms/OpenAIReasonModel.md
       - OpenAIToolModel: api/standard/swarmauri_standard/llms/OpenAIToolModel.md
       - PerplexityModel: api/standard/swarmauri_standard/llms/PerplexityModel.md
-      - PlayHTModel: api/standard/swarmauri_standard/llms/PlayHTModel.md
       - WhisperLargeModel: api/standard/swarmauri_standard/llms/WhisperLargeModel.md
     - Logger Formatters:
       - BorderFormatter: api/standard/swarmauri_standard/logger_formatters/BorderFormatter.md
@@ -763,7 +762,7 @@ nav:
     - Tts:
       - HyperbolicTTS: api/standard/swarmauri_standard/tts/HyperbolicTTS.md
       - OpenaiTTS: api/standard/swarmauri_standard/tts/OpenaiTTS.md
-      - PlayhtTTS: api/standard/swarmauri_standard/tts/PlayhtTTS.md
+      - "Play.ht migration (deprecated)": home/playht_migration.md
     - Utils:
       - DurationManager: api/standard/swarmauri_standard/utils/DurationManager.md
       - MemoizingMeta: api/standard/swarmauri_standard/utils/MemoizingMeta.md
