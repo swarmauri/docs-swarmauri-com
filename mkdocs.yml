@@ -760,9 +760,10 @@ nav:
     - Transports:
       - PubSubTransport: api/standard/swarmauri_standard/transports/PubSubTransport.md
     - Tts:
-      - HyperbolicTTS: api/standard/swarmauri_standard/tts/HyperbolicTTS.md
-      - OpenaiTTS: api/standard/swarmauri_standard/tts/OpenaiTTS.md
+      - HyperbolicTTS (retired): api/standard/swarmauri_standard/tts/HyperbolicTTS.md
+      - OpenaiTTS (legacy import): api/standard/swarmauri_standard/tts/OpenaiTTS.md
       - "Play.ht migration (deprecated)": home/playht_migration.md
+      - OpenAI Speech lifecycle: home/openai-speech.md
     - Utils:
       - DurationManager: api/standard/swarmauri_standard/utils/DurationManager.md
       - MemoizingMeta: api/standard/swarmauri_standard/utils/MemoizingMeta.md
